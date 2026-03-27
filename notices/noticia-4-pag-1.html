@@ -10,27 +10,8 @@
 
 <body>
 
-    <header>
-        <div class="logo">
-            <img src="/imagens/logo-de-cria.png" alt="">
-        </div>
-
-        <nav>
-            <a href="/index.html">INICIO</a>
-            <a href="/tecnology.html">TECNOLOGIA</a>
-            <a href="/cine.html">CINEMA</a>
-            <a href="/sport.html">ESPORTE</a>
-            <a href="/health.html">SAÚDE</a>
-        </nav>
-
-        <div class="icones-header">
-            <a href="https://github.com/ikaukau0" target="_blank">
-                <img src="/imagens/search.png" alt="">
-                <img src="/imagens/github.png" alt="">
-                <img src="/imagens/idioma.png" alt="">
-            </a>
-        </div>
-    </header>
+    <div id="header"></div>
+<script src="/js/header.js"></script>
 
     <!-- notícia -->
     <div class="container">
@@ -42,7 +23,10 @@
         </div>
 
         <div class="text-p">
+            
+            <img src="/imagens/homem-aranha.jpg.jpg " alt="Homem-Aranha novo filme">
 
+            <br>
             <p>
                 A Marvel Studios prepara o lançamento de <strong>Homem-Aranha: Um Novo Dia</strong>, que promete
                 marcar uma nova fase na vida de Peter Parker após os eventos recentes do universo cinematográfico.
@@ -68,25 +52,42 @@
                 Além disso, há rumores de conexões com futuras fases do universo Marvel.
             </p>
 
-            <br>
-
-            <img src="/imagens/homem-aranha.jpg" alt="Homem-Aranha novo filme">
-
-            <br>
-
             <p><strong>🎬 Impacto no MCU:</strong></p>
 
             <p>
                 “Um Novo Dia” pode redefinir completamente o papel do Homem-Aranha dentro do MCU, abrindo portas
                 para histórias mais sombrias e independentes do herói.
             </p>
+            <section class="container-estreia">
 
+                <div class="text-p">
+
+                    <h2 id="estreia-spider">📅 Data de estreia</h2>
+
+                    <p>
+                        O filme <strong>Homem-Aranha: Um Novo Dia</strong> está previsto para estrear em
+                        <strong>30m de Julho de 2026</strong>, sendo uma das produções mais aguardadas do ano pelos fãs da Marvel.
+                    </p>
+
+                    <p>
+                        A estreia deve acontecer simultaneamente em diversos países, com grande expectativa de público
+                        e possível sucesso de bilheteria logo nas primeiras semanas.
+                    </p>
+
+                    <p>
+                        Além disso, o lançamento pode marcar o início de uma nova fase dentro do universo Marvel,
+                        trazendo mudanças importantes na trajetória do personagem.
+                    </p>
+
+                </div>
+
+            </section>
         </div>
 
         <!-- vídeo -->
         <h1 id="resumo-partida">Assista ao trailer:</h1>
 
-        <div class="video-container-3">
+        <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PlulyWs1kS4?si=frHwctBWLGnvgFA0"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

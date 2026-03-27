@@ -84,6 +84,7 @@ p {
   border-radius: 20px;
   padding: 20px;
   padding-top: 40px;
+  
 }
 
 /* img */
@@ -160,12 +161,29 @@ p {
     left: 0;
 }
 
+/* noticia 4 - spider man */
 
+#estreia-spider {
+  padding-bottom: 20px;
+}
 
-
-
-
-
+.container-estreia {
+margin-top: 20px;
+background: #ff0000;
+background: linear-gradient(90deg,rgba(255, 0, 0, 0.5) 36%, rgba(34, 0, 255, 0.5) 59%);
+border-radius: 20px;
+/* TRANSIÇÃO */
+    transition: all 0.3s ease;
+}
+.container-estreia:hover {
+    transform: scale(1.03); /* aumenta levemente */
+    
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 0.7),
+        rgba(34, 0, 255, 0.7)
+    );
+}
 
 
 

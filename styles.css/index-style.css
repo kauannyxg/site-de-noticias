@@ -67,6 +67,14 @@ header nav a {
   height: 28px;
 }
 
+/* alterar hoover login */
+.icones-header a:last-child img:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 5px white);
+}
+
+
+/* logooo */
 .logo img {
   width: 220px;
   height: 125px;
@@ -146,7 +154,7 @@ main section:nth-child(3) {
   cursor: pointer;
 }
 
-.noticia-principal :hover{
+.noticia-principal:hover{
   transition: 0.1s;
   transform: scale(1.1);
   font-weight: 500;
@@ -403,5 +411,4 @@ footer p {
 a {
     text-decoration: none;
     color: inherit;
-    display: block;
 }
