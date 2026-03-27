@@ -52,6 +52,7 @@ header nav a {
   display: flex;
   gap: 20px;
 }
+
 .icones-header img:hover {
   transform: scale(1.2);
   opacity: 0.8;
@@ -62,6 +63,7 @@ header nav a {
   box-shadow: none;
   text-decoration: none;
 }
+
 .icones-header img {
   height: 28px;
 }
@@ -71,33 +73,44 @@ main {
   padding: 30px 50px;
 }
 
+/* noticia 1 */
 /* text paragrafo */
 p {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .text-p {
-    background-color: #5d043f1b;
-    border-radius: 20px;
-    padding: 20px;
-    padding-top: 40px;
+  background-color: #5d043f1b;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 40px;
 }
+
 /* img */
 .text-p img {
-    width: 50%;
-    height: auto;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    padding: 15px;
+  width: 50%;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
 }
+
 /* centralizar section */
 .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: auto;
-    padding-bottom: 50px;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+#tabela{
+  padding-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* resumo noticia 2 */
@@ -111,19 +124,41 @@ font-size: 20px;
 }
 
 .video-container {
-    border-radius: 12px;
-    overflow: hidden;
-    max-width: 800px;
-    margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 .video-container iframe {
-    display: block;
+  display: block;
 }
 
 
+/* texto noticia 3 - brasil x frança */
+#brasil-style , #vitoria-franca {
+  color: rgb(23, 35, 0);
+  text-align: center;
+  
+}
 
+.video-container-3 {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
 
+.video-container-3 iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
 
 
@@ -141,7 +176,8 @@ font-size: 20px;
 
 /* footer */
 footer {
-  position: relative; /* referência para a imagem */
+  position: relative;
+  /* referência para a imagem */
   background-color: rgb(78, 0, 78);
   color: white;
   padding: 20px;
@@ -163,12 +199,12 @@ footer p {
   font-size: 8px;
 }
 
-.logos-footer{
+.logos-footer {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.logos-footer :hover{
+.logos-footer :hover {
   transform: scale(1.1);
 }
